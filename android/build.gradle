@@ -55,5 +55,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation files("libs/VisaSensoryBranding.aar")
+    def visa_sensory_branding_version = "1.0.0"
+    implementation "com.novopayment.sdk.android:visa-sensory-branding:$visa_sensory_branding_version"
+    // implementation files("libs/VisaSensoryBranding.aar")
 }
