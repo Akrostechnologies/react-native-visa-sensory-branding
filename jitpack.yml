@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=android/libs/VisaSensoryBranding.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.visa.sensory -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
