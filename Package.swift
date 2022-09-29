@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "VISASENSORY",
+    name: "VisaSensoryBranding",
  
     products: [
         .library(
-            name: "VISASENSORY",
-            targets: ["VISASENSORY"])
+            name: "VisaSensoryBranding",
+            targets: ["VisaSensoryBranding"])
     ],
  
   targets: [
         .binaryTarget(
-          name: "VISASENSORY",
+          name: "VisaSensoryBranding",
           path: "ios/VisaSensoryBranding.xcframework"
         )
     ] 
